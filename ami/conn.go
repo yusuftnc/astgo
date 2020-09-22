@@ -4,9 +4,10 @@ package ami
 
 import (
 	"bufio"
-	"github.com/pkg/errors"
 	"net"
 	"regexp"
+
+	"github.com/pkg/errors"
 
 	"bytes"
 	"fmt"
@@ -15,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/wenerme/astgo/util"
 )
 
